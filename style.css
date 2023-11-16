@@ -93,8 +93,8 @@ main:hover {
     font-family: Arial, Helvetica, sans-serif;
     justify-content: center;
     display: flex;
-    font-size: 45px;
-    margin-top: 120px;
+    font-size: 65px;
+    margin-top: 100px;
  }
 
  button {
@@ -104,8 +104,8 @@ main:hover {
     width: 120px;
     height: 70px;
     position: relative;
-    top: 250px;
-    right: 450px;
+    top: 280px;
+    right: 490px;
  }
 
  button a {
@@ -122,18 +122,9 @@ main:hover {
  .bungkusjudul {
     display: flex;
     justify-content:center;
-    gap: 8em;
+    gap: 2em;
     margin-top: 100px;
     
- }
-
- .luuffy1 {
-    width: 250px;
-    display: flex;
-    position: absolute;
-    left: 900px;
-    top: 80px;
-
  }
 
 
