@@ -1,15 +1,22 @@
 * {
     margin: 0;
     padding: 0;
+    position: relative;
 }
 
 html{
     scroll-behavior: smooth;
+    position: relative;
 }
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #232D3F
+    background-color: #232D3F;
+    max-width:1920px;
+    margin:0 auto;
+	overflow-x:hidden;
+    position: relative;
 }
+
 
 header {
     background-color: #232D3F;
@@ -51,8 +58,6 @@ nav ul li a:hover{
 }
 img {
     width: 300px;
-    border-radius: 50px;
-    padding: 30px;
 }
 
 footer {
@@ -88,7 +93,7 @@ main:hover {
     transition: 0.3s all ease-in-out;
 }
 
- .perkenalan { 
+ /* .perkenalan { 
     color: #F1EFEF;
     font-family: Arial, Helvetica, sans-serif;
     justify-content: center;
@@ -123,37 +128,161 @@ main:hover {
     box-shadow: 0 0 20px whitesmoke;
  }
 
- .bungkusjudul {
+ .welcome-hero{
     display: flex;
     justify-content:center;
     gap: 2em;
     margin-top: 100px;
-    
  }
 
-
-.aboutmeee:hover {
-    letter-spacing: 0.7px;
-    transition: 0.3s all ease-in-out;
+ .welcome-hero:before{
+    position:absolute;
+    content: " ";
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
 }
 
-.img1 {
-    position: relative;
-    top: 1500px;
-    padding: 5px;
+.judulnyaabout {
+    color: #F1EFEF;
+    display: flex;
+    left: 600px;
+    top: 1000px;
+    font-size:18px;
+    color: #F1EFEF;
+    text-transform: initial;
+    line-height: 1.8;
 }
-
-.img2 {
-    position: relative;
-    top: 1500px;
-    padding: 5px;
+.fContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    top: 700px;
+    border: 2px solid whitesmoke;
+    width: 1000px;
+    height: 300px;
+    border-radius: 20px;
+    padding: 30px;
+    left: 95px;
+    color: #F1EFEF;
 }
+ */
 
-.judul2 {
+ .homes {
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: center;
+    gap: 10em;
+    top: 140px;
+ }
+
+ .judulnya {
+    top: 70px;
+ }
+
+ img {
+    border-radius: 100%;
+ }
+ h1 {
+    font-size: 50px;
+    color: whitesmoke;
+ }
+
+ p {
+    color: white;
+    font-size: 20px;
+    padding: auto;
+ }
+
+ p a {
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    top: 30px;
+ }
+
+ .judulabout {
     justify-content: center;
     display: flex;
-    position: relative;
-    color: transparent;
     top: 800px;
+ }
+
+ .abouts {
+    display: flex;
+    border: 2px solid whitesmoke;
+    width: 1000px;
+    padding: 40px;
+    border-radius: 25px;
+ }
+
+ .textabout {
+    justify-content: center;
+    display: flex;
+    width: 1000px;
+    gap: 10em;
+ }
+
+ .kebawahin {
+    top: 950px;
+ }
+
+ .message label input {
+    padding: 30px;
+ }
+
+.inputan {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
 }
 
+.inputan label  {
+    border: none;
+    padding: 5px;
+    
+}
+
+.inputan label input {
+    padding: 5px;
+    width: 300px;
+    border-radius: 10px;
+    
+}
+.kirim{
+    width: 50px;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    gap: 10em;
+    top: 1800px;
+    margin-bottom: 100px;
+}
+
+.juds {
+    font-size: 24px;
+    color: whitesmoke;
+    font-weight: 600;
+}
+
+.contact-add-info { margin: 42px 0 52px;
+    bottom: 30px;
+}
+.single-contact-add-info h3 {
+    color:  #636a82;
+    font-weight:  500;
+}
+.single-contact-add-info p {
+    color:  #999fb3;
+    font-size:  16px;
+    margin-top:  18px;
+}
+.single-contact-add-info {
+    margin-bottom:  26px;
+}
