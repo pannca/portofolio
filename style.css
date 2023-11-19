@@ -25,6 +25,7 @@ header {
     justify-content: space-between;
     box-shadow:  0 7px 15px 0 whitesmoke;
     z-index: 1;
+    position: fixed;
 }
 
 nav ul {
@@ -232,6 +233,7 @@ main:hover {
 
  .message label input {
     padding: 30px;
+    
  }
 
 .inputan {
@@ -254,7 +256,15 @@ main:hover {
     
 }
 .kirim{
-    width: 50px;
+    padding: 5px;
+    width: 100px;
+    border-radius: 25px;
+    margin-top: 10px;
+    left: 7px;
+}
+
+.kirim button {
+    text-decoration: none;
 }
 
 .contact{
@@ -285,4 +295,22 @@ main:hover {
 }
 .single-contact-add-info {
     margin-bottom:  26px;
+}
+
+.judulcontact {
+    justify-content: center;
+    display: flex;
+    top: 1600px;
+ }
+
+.kirim button  {
+    padding: 8px;
+    width: 100px;
+    border-radius: 15px;
+}
+
+.kirim button a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #232D3F;
 }
