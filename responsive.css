@@ -1,4 +1,4 @@
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) { 
 
      .textabout {
         justify-content: center;
@@ -16,11 +16,11 @@
      }
 }
 
-@media (max-width: 768px) {
+ */
+ @media screen and (max-width: 768px) {
 
     .homes {
         display: grid;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         justify-content: center;
         gap: 10em;
         top: 250px;
@@ -50,5 +50,50 @@
         margin-bottom: 100px;
     }
 
+}
+
+
+@media screen and (max-width: 426px) {
+   .homes {
+      display: grid;
+      left: 45px;
+      justify-content: center;
+      gap: 10em;
+      top: 250px;
+   }
+
+   .abouts {
+      display: flex;
+      border: 2px solid whitesmoke;
+      width: 300px;
+      padding: 40px;
+      border-radius: 25px;
+      text-align: center;
+      justify-content: center;
+      left: 28px;
+   }
+
+   .judulabout {
+      justify-content: center;
+      display: flex;
+      top: 800px;
+      left: 28px;
+   }
+
+   .contact{
+      display: grid;
+      justify-content: center;
+      gap: 10em;
+      top: 1800px;
+      margin-bottom: 100px;
+      left: 28px;
+  }
+
+  .judulcontact {
+   justify-content: center;
+   display: flex;
+   top: 1600px;
+   left: 28px;
+}
 }
 
