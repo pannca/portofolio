@@ -176,7 +176,7 @@ main:hover {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     justify-content: center;
     gap: 10em;
-    top: 140px;
+    top: 250px;
  }
 
  .judulnya {
@@ -307,6 +307,7 @@ main:hover {
     padding: 8px;
     width: 100px;
     border-radius: 15px;
+    right: 8px;
 }
 
 .kirim button a{
