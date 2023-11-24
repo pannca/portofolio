@@ -97,3 +97,34 @@
 }
 }
 
+@media screen and (max-width: 370px) {
+   .homes {
+      display: grid;
+      left: 30px;
+      justify-content: center;
+      gap: 10em;
+      top: 250px;
+   }
+
+   .abouts {
+      display: flex;
+      border: 2px solid whitesmoke;
+      width: 220px;
+      padding: 50px;
+      border-radius: 25px;
+      text-align: center;
+      justify-content: center;
+      left: 18px;
+   }
+
+   .judulabout {
+      justify-content: center;
+      display: flex;
+      top: 800px;
+      left: 18px;
+   }
+
+
+
+}
+   
