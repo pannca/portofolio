@@ -1,22 +1,4 @@
-/* @media (max-width: 1024px) { 
 
-     .textabout {
-        justify-content: center;
-        display: flex;
-        width: 850px;
-        gap: 5em;
-     }
-    
-     .abouts {
-        display: flex;
-        border: 2px solid whitesmoke;
-        width: 850px;
-        padding: 40px;
-        border-radius: 25px;
-     }
-}
-
- */
  @media screen and (max-width: 768px) {
 
     .homes {
