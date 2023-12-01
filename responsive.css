@@ -1,112 +1,192 @@
-
- @media screen and (max-width: 768px) {
-
-    .homes {
-        display: grid;
-        justify-content: center;
-        gap: 10em;
-        top: 250px;
-     }
-
-    .textabout {
-        justify-content: center;
-        display: grid;
-        width: 600px;
-        gap: 5em;
-     }
-
-     .abouts {
-        display: flex;
-        border: 2px solid whitesmoke;
-        width: 500px;
-        padding: 40px;
-        border-radius: 25px;
-        text-align: center;
-     }
-     
-     .contact{
-        display: grid;
-        justify-content: center;
-        gap: 10em;
-        top: 1800px;
-        margin-bottom: 100px;
-    }
-
-}
-
-
-@media screen and (max-width: 426px) {
-   .homes {
+@media screen and (max-width: 768px) {
+  
+   .home {
       display: grid;
-      left: 45px;
       justify-content: center;
-      gap: 10em;
-      top: 250px;
-   }
-
-   .abouts {
-      display: flex;
-      border: 2px solid whitesmoke;
+      gap: 12em;
+      padding: 6rem 0;
+      padding-bottom: 200px;
+      width: 100%;
+      padding-top: 280px;
+  }
+   
+   .textabout {
+      position: relative;
+      margin-top: 80px;
+      display: grid;
+      align-items: center;
+      gap: 5em;
       width: 300px;
+      border: 3px solid white;
       padding: 40px;
       border-radius: 25px;
-      text-align: center;
-      justify-content: center;
-      left: 28px;
-   }
-
-   .judulabout {
-      justify-content: center;
-      display: flex;
-      top: 800px;
-      left: 28px;
-   }
-
-   .contact{
-      display: grid;
-      justify-content: center;
-      gap: 10em;
-      top: 1800px;
-      margin-bottom: 100px;
-      left: 28px;
+      left: 200px;
+      font-size: 20px;
   }
 
-  .judulcontact {
+  .bungkuscontact {
+   display: grid;
    justify-content: center;
-   display: flex;
-   top: 1600px;
-   left: 28px;
+   gap: 1em;
+   margin-top: 70px;
 }
 }
 
-@media screen and (max-width: 370px) {
-   .homes {
-      display: grid;
-      left: 30px;
-      justify-content: center;
-      gap: 10em;
-      top: 250px;
-   }
-
-   .abouts {
-      display: flex;
-      border: 2px solid whitesmoke;
-      width: 220px;
-      padding: 50px;
-      border-radius: 25px;
-      text-align: center;
-      justify-content: center;
-      left: 18px;
-   }
-
-   .judulabout {
-      justify-content: center;
-      display: flex;
-      top: 800px;
-      left: 18px;
-   }
-
-
-
-}
+@media screen and (max-width: 426px) {
    
+   .home {
+      display: grid;
+      justify-content: center;
+      gap: 12em;
+      padding: 6rem 0;
+      padding-bottom: 200px;
+      width: 100%;
+      padding-top: 280px;
+  }
+  
+  .home img {
+      width: 250px;
+      border-radius: 100%;
+      position: relative;
+      left: 45px;
+      bottom: 30px;
+  }
+  
+   .textabout {
+      position: relative;
+      margin-top: 80px;
+      display: grid;
+      align-items: center;
+      gap: 5em;
+      width: 250px;
+      border: 3px solid white;
+      padding: 45px;
+      border-radius: 25px;
+      left: 45px;
+      font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+   
+   .logo {
+      padding: 18px;
+      font-weight: 600;
+      font-size: 30px;
+      color: whitesmoke;
+   }
+
+   nav ul {
+      display: flex;
+      gap: 2em;
+      padding: 30px;
+      list-style-type: none;
+      
+  }
+
+   .textabout {
+      position: relative;
+      margin-top: 80px;
+      display: grid;
+      align-items: center;
+      gap: 5em;
+      width: 200px;
+      border: 3px solid white;
+      padding: 45px;
+      border-radius: 25px;
+      left: 43px;
+      font-size: 15px;
+  }
+
+  .home img {
+   width: 230px;
+   border-radius: 100%;
+   position: relative;
+   left: 25px;
+   bottom: 30px;
+}
+
+  .texthome h1 {
+   font-size: 40px;
+   color: aliceblue;
+}
+
+  .about img {
+   width: 200px;
+   border-radius: 15px;
+}
+
+
+.bungkuscontact p {
+   border: solid whitesmoke;
+   background-color: aliceblue;
+   padding: 5px;
+   border-radius: 15px;
+   text-align: center;
+   margin-top: 25px;
+}
+
+.bungkuscontact p a {
+   text-decoration: none;
+   font-weight: 600;
+   color: #232D3F;
+   font-size: 15px;
+}
+
+.bungkuscontact img{
+   width: 100px;
+   position: relative;
+   left: 10px;
+}
+
+.contact1 {
+   border: solid 2px whitesmoke;
+   padding: 40px;
+   border-radius: 25px;
+}
+
+.contact2 {
+   border: solid 2px whitesmoke;
+   padding: 40px;
+   border-radius: 25px;
+}
+
+.contact3 {
+   border: solid 2px whitesmoke;
+   padding: 40px;
+   border-radius: 25px;
+}
+
+}
+
+@media screen and (max-width: 321px) {
+   .textabout {
+      position: relative;
+      margin-top: 80px;
+      display: grid;
+      align-items: center;
+      gap: 5em;
+      width: 180px;
+      border: 3px solid white;
+      padding: 45px;
+      border-radius: 25px;
+      left: 25px;
+      font-size: 15px;
+  }
+
+  .logo {
+   padding: 15px;
+   font-weight: 600;
+   font-size: 25px;
+   color: whitesmoke;
+}
+
+nav ul {
+   display: flex;
+   gap: 1em;
+   padding: 30px;
+   list-style-type: none;
+   
+}
+}
+ 
