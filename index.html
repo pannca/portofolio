@@ -123,19 +123,21 @@
         right: 0;
         background: rgba(0, 123, 255, 0.8);
         color: #fff;
-        text-align: center;
+        display: flex;
+        /* Use flexbox */
+        align-items: center;
+        /* Center vertically */
+        justify-content: center;
+        /* Center horizontally */
         padding: 10px;
-        opacity: 0;
-        transition: opacity 0.3s ease;
-    }
-
-    .portfolio-item:hover .portfolio-text {
-        opacity: 1;
+        /* Add some padding for better appearance */
     }
 
     .portfolio-item a {
         color: #fff;
         text-decoration: none;
+        text-align: center;
+        justify-content: center;
     }
 
     /* Contact Section */
